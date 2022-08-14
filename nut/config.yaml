@@ -4,6 +4,7 @@ version: dev
 slug: nut
 description: Manage battery backup (UPS) devices
 url: https://github.com/hassio-addons/addon-nut
+codenotary: codenotary@frenck.dev
 startup: system
 arch:
   - aarch64
@@ -11,6 +12,7 @@ arch:
   - armhf
   - armv7
   - i386
+init: false
 uart: true
 udev: true
 usb: true
